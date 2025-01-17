@@ -1,4 +1,14 @@
+import { FaGithub, FaInstagram, FaLinkedin } from 'react-icons/fa';
+
 function Footer() {
+
+    const iconLinkStyle = {
+        color: 'black', // Default icon color
+        textDecoration: 'none',
+        margin: '0 10px', // Spacing between icons
+        transition: 'color 0.3s', // Smooth color transition
+      };
+
   return (
     <>
       <footer>

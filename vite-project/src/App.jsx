@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import { Outlet } from 'react-router-dom'
 import './App.css'
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
@@ -8,9 +9,10 @@ function App() {
 
   return (
     <>
-      <h1>Hello There</h1>
       <Navbar />
-      <Outlet />
+      <main>
+        <Outlet />
+      </main>
       <Footer />
     </>
   )

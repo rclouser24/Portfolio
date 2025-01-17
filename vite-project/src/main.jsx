@@ -9,6 +9,7 @@ import ErrorPage from './pages/ErrorPage';
 import About from './pages/About';
 import Resume from './pages/Resume'
 import Contact from './pages/Contact'
+import Portfolio from './pages/Portfolio';
 
 const router = createBrowserRouter([
   {
@@ -28,10 +29,10 @@ const router = createBrowserRouter([
         path: 'contact',
         element: <Contact />,
       },
-      // {
-      //   path: '/ErrorPage',
-      //   element: <ErrorPage />
-      // }
+      {
+        path: 'portfolio',
+        element: <Portfolio />
+      }
     ],
   },
 ]);

@@ -1,14 +1,14 @@
 import ReactDOM from 'react-dom/client';
 import {createBrowserRouter, RouterProvider } from 'react-router-dom';
 
-import 'bootstrap/dist/css/bootstrap.min.css';
 import './index.css';
 
 import App from './App';
 import ErrorPage from './pages/ErrorPage';
-import HomePage from './pages/HomePage';
-import ProfilePage from './pages/ProfilePage';
-import AboutPage from './pages/AboutPage';
+// import Home from './pages/Home';
+import About from './pages/About';
+import Resume from './pages/Resume'
+import Contact from './pages/Contact'
 
 const router = createBrowserRouter([
   {
@@ -18,20 +18,20 @@ const router = createBrowserRouter([
     children: [
       {
         index: true,
-        element: <Home />,
-      },
-      {
-        path: '/About',
         element: <About />,
       },
       {
-        path: '/Blog',
-        element: <Blog />,
+        path: '/Resume',
+        element: <Resume />,
       },
       {
         path: '/Contact',
         element: <Contact />,
       },
+      {
+        path: '/ErrorPage',
+        element: <ErrorPage />
+      }
     ],
   },
 ]);

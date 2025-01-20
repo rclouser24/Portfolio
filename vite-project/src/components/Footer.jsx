@@ -3,16 +3,15 @@ import { FaGithub, FaInstagram, FaLinkedin } from 'react-icons/fa';
 function Footer() {
 
     const iconLinkStyle = {
-        color: 'black', // Default icon color
+        color: 'gray-800', 
         textDecoration: 'none',
-        margin: '0 10px', // Spacing between icons
-        transition: 'color 0.3s', // Smooth color transition
+        margin: '0 10px', 
       };
 
   return (
     <>
-      <footer>
-        <div>
+      <footer className='h-48 bg-slate-100 flex flex-wrap justify-center items-center mt-auto'>
+        <div className='flex flex-row'>
         <a
             href="https://www.github.com"
             target="_blank"

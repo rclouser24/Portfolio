@@ -36,7 +36,7 @@ export default function Portfolio(){
 
     return(
         <div className="portfolio-container">
-            <h1>My Word</h1>
+            <h1>My Work</h1>
             <div className="card-container">
                 {cardData.map((card, index) => {
                    return <Card 

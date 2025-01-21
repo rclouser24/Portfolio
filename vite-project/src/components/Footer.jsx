@@ -1,4 +1,4 @@
-import { FaGithub, FaInstagram, FaLinkedin } from 'react-icons/fa';
+import { FaGithub, FaLinkedin, FaStackOverflow } from 'react-icons/fa';
 
 function Footer() {
 
@@ -10,10 +10,10 @@ function Footer() {
 
   return (
     <>
-      <footer className='h-48 bg-slate-100 flex flex-wrap justify-center items-center mt-auto'>
+      <footer className='h-48 bg-gray-50 flex flex-wrap justify-center items-center mt-auto'>
         <div className='flex flex-row'>
         <a
-            href="https://www.github.com"
+            href="https://www.github.com/rclouser24"
             target="_blank"
             rel="noopener noreferrer"
             style={iconLinkStyle}
@@ -21,16 +21,16 @@ function Footer() {
             <FaGithub size={30} />
           </a>  
           <a
-            href="https://www.instagram.com"
+            href="https://stackoverflow.com/users/6111346/rclouser24"
             target="_blank"
             rel="noopener noreferrer"
             style={iconLinkStyle}
           >
-            <FaInstagram size={30} />
+            <FaStackOverflow size={30} />
           </a>
 
           <a
-            href="https://www.linkedin.com"
+            href="https://www.linkedin.com/in/ryan-clouser"
             target="_blank"
             rel="noopener noreferrer"
             style={iconLinkStyle}

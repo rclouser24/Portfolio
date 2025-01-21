@@ -1,7 +1,7 @@
 export default function About() {
   return (
     
-      <div className="min-h-screen bg-offWhite">
+      <div className="min-h-[80vh] bg-gray-100">
           <div className="p-12 flex justify-center flex-wrap flex-grow">
             <div className="">
                 <img

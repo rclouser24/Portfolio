@@ -25,7 +25,6 @@ export default function Contact() {
         <h1 className="text-2xl font-bold mb-6 text-center text-gray-800">Contact Me</h1>
 
         <div className="space-y-4">
-          {/* Name Input */}
           <div>
             <label className="block text-gray-700 font-medium mb-1">Name</label>
             <input
@@ -36,8 +35,6 @@ export default function Contact() {
               className="w-full border border-gray-300 rounded-lg p-2 focus:outline-none focus:ring-2 focus:ring-blue-400"
             />
           </div>
-
-          {/* Email Input */}
           <div>
             <label className="block text-gray-700 font-medium mb-1">Email</label>
             <input
@@ -48,8 +45,6 @@ export default function Contact() {
               className="w-full border border-gray-300 rounded-lg p-2 focus:outline-none focus:ring-2 focus:ring-blue-400"
             />
           </div>
-
-          {/* Message Input */}
           <div>
             <label className="block text-gray-700 font-medium mb-1">Message</label>
             <textarea
@@ -61,8 +56,6 @@ export default function Contact() {
             ></textarea>
           </div>
         </div>
-
-        {/* Submit Button */}
         <button
           onClick={handleSubmit}
           className="mt-6 w-full bg-blue-500 text-white py-2 px-4 rounded-lg hover:bg-blue-600 transition duration-200"
